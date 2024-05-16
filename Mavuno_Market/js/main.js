@@ -94,3 +94,4 @@
     
 })(jQuery);
 
+//add loader
