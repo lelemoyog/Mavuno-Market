@@ -13,3 +13,12 @@
     console.log('Loader element not found'); // Check if this message appears in the console
   }
 
+ // Spinner
+ var spinner = function () {
+  setTimeout(function () {
+      if ($('#spinner').length > 0) {
+          $('#spinner').removeClass('show');
+      }
+  }, 1);
+};
+spinner(0);
